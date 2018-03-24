@@ -1,0 +1,96 @@
+.main-contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../Images/watercolor.jpg');
+    min-height: 100vh;
+}
+
+.contact-header {
+    color: #2E2E30;
+    margin-top: -100px;
+    font-size: 130px;
+}
+
+.emailer-box {
+    display: flex;
+    height: 300px;
+    width: 400px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.namebox {
+    height: 30px;
+    width: 500px;
+    background: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #2E2E30;;
+    margin-top: 25px;
+    font-size: 20px;
+    font-family: 'Libre Franklin', sans-serif;
+    outline: none;
+    padding-left: 15px;
+}
+.emailbox {
+    height: 30px;
+    width: 500px;
+    background: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #2E2E30;;
+    margin-top: 25px;
+    font-size: 20px;
+    font-family: 'Libre Franklin', sans-serif;
+    outline: none;
+    padding-left: 15px;
+}
+.subjectbox {
+    height: 30px;
+    width: 500px;
+    background: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #2E2E30;;
+    margin-top: 25px;
+    font-size: 20px;
+    font-family: 'Libre Franklin', sans-serif;
+    outline: none;
+    padding-left: 15px;
+}
+.messagebox {
+    height: 30px;
+    width: 500px;
+    background: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #2E2E30;;
+    margin-top: 25px;
+    font-size: 20px;
+    font-family: 'Libre Franklin', sans-serif;
+    outline: none;
+    padding-left: 15px;
+    height: 160px;
+    resize: none;
+}
+
+.send-button {
+    font-family: 'Libre Franklin', sans-serif;
+    cursor: pointer;
+    font-size: 20px;
+    color: #2E2E30;
+    text-decoration: underline #F2B9FA;
+    border: none;
+    background: none;
+    outline: none;
+    margin-top: 25px;
+}
+

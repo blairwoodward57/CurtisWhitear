@@ -1,0 +1,29 @@
+.main-musicvids-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 100px; 
+    background-image: url('../Images/watercolor.jpg');
+}
+
+.mv-header {
+    color: #2E2E30;
+    margin-top: 80px;
+    margin-bottom: -20px;
+    font-size: 150px;
+} 
+
+#mirrors {
+    border-bottom: none;
+}
+
+#twomirrors {
+    margin-top: -100px;
+}
+
+#twomirrors:hover {
+    font-size: 24.1px;
+    font-weight: bold;
+}

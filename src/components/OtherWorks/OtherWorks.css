@@ -1,0 +1,58 @@
+.main-otherworks-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../Images/watercolor.jpg');
+}
+
+.ow-header {
+    color: #2E2E30;
+    margin-top: 160px;
+    margin-bottom: -30px;
+    font-size: 150px;
+}
+
+#twodoors {
+    margin-top: -40px;
+    cursor: pointer;
+}
+
+#twodoors:hover {
+    font-size: 24.1px;
+    font-weight: bold;
+}
+
+#fridechikn {
+    border-bottom: none;
+}
+
+#downthehole {
+    margin-top: -40px;
+    cursor: pointer;
+}
+
+#downthehole:hover {
+    font-size: 24.1px;
+    font-weight: bold;
+}
+
+#formation {
+    margin-top: -40px;
+    cursor: pointer;
+}
+
+#formation:hover {
+    font-size: 24.1px;
+    font-weight: bold;
+}
+
+#fride {
+    margin-top: -40px;
+    cursor: pointer;
+}
+
+#fride:hover {
+    font-size: 24.1px;
+    font-weight: bold;
+}

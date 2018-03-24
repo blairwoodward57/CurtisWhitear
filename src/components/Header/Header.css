@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin');
+
+.header-root {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* background-image: url('../Images/watercolor.jpg');  */
+}
+
+hr {
+    border: 1px dashed #2E2E30;
+    width: 1200px;
+}
+
+.main-header-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    height: 120px;
+    background: white;
+    position: fixed;
+     background-image: url('../Images/watercolor.jpg');  
+}
+
+.header-header {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 42px;
+    /* font-weight: bold; */
+    font-family: 'Libre Franklin', sans-serif;
+    margin-top: 20px;
+}
+
+.header-header a {
+    text-decoration: none;
+    color: #2E2E30;
+}
+
+.main-header-nav {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-around;
+    font-family: 'Libre Franklin', sans-serif;
+    
+}
+
+nav > a {
+    text-decoration: none;
+    color: #2E2E30;
+}
+
+.main-header-nav p:hover {
+    font-weight: bold;
+    font-size: 16.1px;
+}
+
+.header-header:hover {
+    font-weight: bold;
+    font-size: 42.1px;
+}
